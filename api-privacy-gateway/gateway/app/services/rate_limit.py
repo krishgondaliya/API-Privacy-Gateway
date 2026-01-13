@@ -1,8 +1,9 @@
 import time
+import os
 import redis.asyncio as redis
 from fastapi import HTTPException
 
-REDIS_URL = "redis://localhost:6379/0"
+REDIS_URL = os.getenv("REDIS_URL", "redis://localhost:6379/0")
 
 _redis = None
 
