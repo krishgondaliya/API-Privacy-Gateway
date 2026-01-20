@@ -33,12 +33,6 @@ cd infra
 docker compose up --build
 ```
 
-**Access:**
-- Gateway: http://127.0.0.1:8000
-- API Docs: http://127.0.0.1:8000/docs
-
----
-
 ## Usage
 
 ```bash
